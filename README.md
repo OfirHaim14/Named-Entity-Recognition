@@ -15,3 +15,5 @@ Two layers of bidirectional LSTM which received as input the word embeddings of 
 After every word got it’s contextual embedding the LSTM model pass the new representation to a fully connected network with two output layers. For better results the model try to predict the exact entity of the word and from it the binary entity. 
 # Loss function:
  Weighted combination of two-loss functions, the Cross-Entropy for predicting the exact entity and the Binary Cross-Entropy to predict the binary prediction. The weighted combination is : ƛ*CE + BCE and after a lot of tries the conclusion is that ƛ=2e-1 performs the best.
+# F1 score: 
+This model had F1 score of 0.65 onthe validation data set.
