@@ -1,3 +1,4 @@
+# Named-Entity-Recognition
 Implementation of three different modes for the Binary Name Entity Recognition task on tweets data set: 
 Simple machine learning model – SVM model 
 Simple neural network model 
