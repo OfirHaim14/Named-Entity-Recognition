@@ -18,5 +18,3 @@ After every word got its contextual embedding the LSTM model passes the new repr
  A weighted combination of two-loss functions, the Cross-Entropy for predicting the exact entity and the Binary Cross-Entropy to predict the binary prediction. The weighted combination is ƛ*CE + BCE and after a lot of tries, the conclusion is that ƛ=2e-1 performs the best.
 ### F1 score: 
 This model had an F1 score of 0.65 on the dev data set.
-
-## Graphs:
