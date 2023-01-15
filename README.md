@@ -2,7 +2,7 @@
 Implementation of three different models for the Binary Name Entity Recognition task on tweets data set: 
 Simple machine learning model – SVM model 
 Simple neural network model 
-Bidirectional LSTMs inspired by ELMo
+Bidirectional LSTMs inspired by ELMo 
 ## Preprocessing: 
 In order to give the tweets as an input to our models the words of the tweet should be represented as vectors, therefore every word got vector embedding by using genism’s pre-trained GloVe model.
 ## Simple machine learning model 
